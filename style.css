@@ -1,0 +1,24 @@
+.info-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 606px;
+}
+
+#gird {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 606px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000 ;
+}
+
+.mole {
+    background: url('./images/mole.png') center center;
+    background-size: contain;
+}
