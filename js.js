@@ -29,6 +29,7 @@ squares.forEach((item) => {
            result++;
            alreadyHit = 1;
            scope.textContent = result;
+           item.classList.remove('mole');
        }
     });
 });

@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
 .info-box {
     display: flex;
     justify-content: space-evenly;
@@ -22,4 +28,15 @@
 .mole {
     background: url('./images/mole.png') center center;
     background-size: contain;
+}
+
+@media (max-width: 1024px)  {
+    .info-box,
+    #gird {
+        width: 100%;
+    }
+    .square {
+        width: 18em;
+        height: 18em;
+    }
 }
